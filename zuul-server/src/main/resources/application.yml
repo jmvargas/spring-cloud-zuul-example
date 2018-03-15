@@ -15,12 +15,12 @@ zuul:
     test:
       path: /redirect/**
       url: http://google.com
-    customer-by-address:
-      path: /customer-by-address/**
+    student-by-address:
+      path: /student-by-address/**
       url: http://localhost:9098
-    customer-by-service:
-      path: /customer-by-service/**
-      serviceId: CUSTOMER-SERVICE
+    student-by-service:
+      path: /student-by-service/**
+      serviceId: STUDENT-SERVICE
     static:
       path: /static/**
 
